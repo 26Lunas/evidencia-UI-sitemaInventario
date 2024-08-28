@@ -93,7 +93,7 @@
 
 }
 .table>:not(caption)>*>*{
-    color: var(--colorBtnAdd) !important;
+    color: var(--colorBtnAdd);
 }
 
 
