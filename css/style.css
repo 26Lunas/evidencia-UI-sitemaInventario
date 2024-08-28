@@ -1,0 +1,212 @@
+.contenedor-main{
+    width: 100%;
+    height: 100vh;
+    background: #D9D9D9;
+    display: flex;
+
+}
+.menu-lateral{
+    width: 18vw;
+    height: 100%;
+    background: #0D5A65;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-btn-logout{
+    /* border: solid 1px red; */
+    position: relative;
+    bottom: -40%;
+    right: 30%;
+}
+.container-btn-logout .icono-perfil{
+    background: #65A5C5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono-perfil img{
+    /* border: solid 2px red; */
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 30px;
+}
+.container-btn-logout .icono-perfil p{
+    background: #65A5C5;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    left: 30px;
+    top: 7.5px;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contenedor-items-menu{
+    /* border: solid 1px red; */
+    width: 100%;
+}
+.contenedor-items-menu .icono, .icono svg{
+    width: 30px;
+    height: 30px;
+    /* background: #D9D9D9; */
+    margin-right: 10px;
+}
+.items-menu{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+   
+    padding-left: 10%;
+}
+.items-menu-1:hover, .items-menu-2:hover, .items-menu-3:hover, .items-menu-4:hover, .items-menu-5:hover{
+    background: #d9d9d97a;
+    border-left: rgb(14, 118, 253) 4px solid;
+    cursor: pointer;
+}
+.items-menu a{
+    text-decoration: none;
+    color: white;
+}
+.activado{
+    background: #d9d9d97a;
+    border-left: rgb(14, 118, 253) 4px solid;
+}
+
+/* Contenido de la derecha */
+.contenedor-display-right{
+    /* border: solid 2px red; */
+    width: 82vw;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.barraSuperior{
+    width: 100%;
+    height: 50px;
+    background: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 1%;
+}
+.icono-campana img{
+    width: 30px;
+    height: 30px;
+}
+.cont-alert{
+
+}
+.area-text-welcome{
+    /* border: solid 1px blue; */
+    width: 100%;
+    height: 35vh;
+    border-bottom-left-radius: 90px;
+    background: #65A5C5;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10%;
+    padding-top: 6%;
+}
+.text-welcome{
+    /* border: solid 1px blue; */
+    border-left: solid 5px rgb(34, 223, 144);
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5%;
+    color: white;
+}
+.text-welcome h2{
+    font-size: 30pt;
+}
+.text-welcome h2, .text-welcome p{
+    margin: 0;
+}
+/* Contenedor cartas */
+.contenedor-cartas-all{
+    /* border: solid 2px rgb(30, 255, 0); */
+}
+.contendor-cards-data{
+    /* border: solid 1px red; */
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: -10vh;
+}
+.cont-cards-1-data{
+    margin-bottom: 4rem;
+}
+.cont-cards-2-data h5{
+    margin-bottom:.6rem;
+}
+.cont-row-1{
+    display: flex;
+    justify-content: space-between;
+}
+.contendor-cards-data .circulo{
+    width: 50px;
+    height: 50px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    margin-right: 4%;
+}
+.card-data{
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 110px;
+    padding-left: 2%;
+    box-shadow: rgb(197, 197, 197) 0px 10px 15px;
+}
+.cont-data h3{
+    font-size: 16pt;
+}
+.cont-data p{
+    font-size: 10pt;
+}
+.cont-data h3, .cont-data p{
+    margin: 0;
+}
+/* Fin contenedor cartas */
+
+/* Contenedor actividades resientes */
+.cont-activeRecent{
+    background: #f5f4f4;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 5rem;
+}
+/* Fin Contenedor actividades resientes */
+
+/* Table register inicio */
+.img-perfil{
+    /* border:  solid 2px red; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-perfil{
+    width: 50px;
+    height: 50px;
+}
+.img-perfil img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+/* Table register End */
+
+/* Fin contenido de la derecha */
+

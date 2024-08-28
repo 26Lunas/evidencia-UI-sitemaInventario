@@ -1,0 +1,122 @@
+:root{
+    --colorBtnAdd: #0D5A65;
+}
+/* Contenedor de la derecha */
+
+/* Barra superior */
+.cont-imprimir{
+    /* border: solid 2px red; */
+
+}
+.cont-imprimir img{
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+.btn-imprimirExcel{
+    background: #409FF5;
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: space-between;
+    padding: 5px;
+    color: white;
+}
+.btn-imprimirExcel p{
+    margin: 0;
+    margin-left: 2px;
+}
+.btn-imprimirExcel:hover{
+    border: 2px solid #409FF5;
+    color: #409FF5 !important;
+}
+
+/* Fin Barra superior */
+
+/* Contenedor buscar y agregar productos */
+.cont-search-addP{
+    /* border: solid 2px red; */
+    width: 99%;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+}
+.cont-search{
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.cont-search img, .btn-add-product img{
+    width: 30px;
+    height: 30px;
+}
+.cont-search input{
+    border: 0;
+    outline-style: none;
+}
+
+.btn-add-product{
+    background: var(--colorBtnAdd);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.btn-add-product p{
+    margin: none;
+    margin: 0;
+    margin-left: 2px;
+}
+.btn-add-product:hover{
+    border: solid 2px var(--colorBtnAdd);
+    color: var(--colorBtnAdd);
+}
+
+/* Contenedor buscar y agragar productos Fin */
+
+.cont-tables-productos{
+    /* border: solid 2px red; */
+    width: 99%;
+    margin: auto;
+}
+.cont-tables-productos table{
+    --bs-table-bg: none !important;
+
+}
+.table>:not(caption)>*>*{
+    color: var(--colorBtnAdd) !important;
+}
+
+
+.tb-register-product tr{
+    /* border: solid 2px red; */
+    background: white;
+}
+.tb-register-product th{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.tb-register-product tr td:last-child{
+    /* border: solid 2px red; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.tb-register-product img{
+    width: 50px;
+    height: auto;
+}
+.icono-act img{
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+/* Fin Contenedor de la derecha */
