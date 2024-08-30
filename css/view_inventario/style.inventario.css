@@ -101,6 +101,10 @@
     /* border: solid 2px red; */
     background: white;
 }
+.tb-register-product tr td:nth-last-child(3){
+    /* border: solid 3px red; */
+    font-weight: 700;
+}
 .tb-register-product th{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
